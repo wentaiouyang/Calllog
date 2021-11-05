@@ -90,7 +90,7 @@
     $password = "root";
     $dbname = "CallLog";
     
-    // 创建连接
+    // create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
     if ($conn->connect_error) {
